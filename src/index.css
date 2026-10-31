@@ -1,0 +1,44 @@
+:root {
+  --bg-night-top: #070d1f;
+  --bg-night-mid: #0f1e3d;
+  --bg-night-bottom: #183059;
+  --wood-dark: #3b1d0c;
+  --wood-mid: #5c2d12;
+  --wood-light: #85461e;
+  --gold-bright: #fde047;
+  --gold-warm: #f59e0b;
+  --crimson: #ef4444;
+  --crimson-dark: #b91c1c;
+  --pine-bright: #10b981;
+  --pine-dark: #065f46;
+  --parchment: #fffbeb;
+  --parchment-border: #fcd34d;
+  --text-light: #f8fafc;
+  --text-muted: #cbd5e1;
+  --font-main: 'Chakra Petch', system-ui, -apple-system, sans-serif;
+  --font-pixel-num: 'VT323', monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: var(--bg-night-top);
+  color: var(--text-light);
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
